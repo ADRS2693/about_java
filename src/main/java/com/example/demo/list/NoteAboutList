@@ -1,0 +1,16 @@
+List in Java
+
+List<> list = new ListClass<>();
+
+List is an interface
+
+1. ArrayList: faster to search but not Thread safe
+
+2. LinkedList: Insertion order while save and read
+
+3. Vector: Thread Safe but Slow in search
+
+
+Signature for Lists
+    List<Class> list = new ArrayList<>();
+    ArrayList<Class> arrList = new ArrayList<>();

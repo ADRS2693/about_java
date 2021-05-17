@@ -1,0 +1,24 @@
+Code should be able to display the knowledge of OOP,control flow, and everything else learned
+
+
+1. Provide sorting algorithm
+
+    ex. Author,
+        -First Name
+        -Book Name
+        -Age
+        -Last Name
+
+
+        --Book by author first name, or book name
+        --Book Name
+        --Book by Author age
+        Library lib = new Library();
+        lib.authors[0] = new Author("Guy", "Fieri", "Flavor Town Map", 45);
+        lib.authors[1] = new Author("Bob", "Bob", "The Legend of Bob Bob", 20);
+        lib.authors[2] = new Author("B", "F", "book", 11);
+        lib.authors[3] = new Author("Fa", "Funk", "Bark", 45);
+        lib.authors[4] = new Author("Chaos", "Budgie", "Ransom Note for Millet", 2147483647);
+        System.out.println(lib.authorAgeSort(2147483647));
+        System.out.println(lib.authorBookSort("The Legend of Bob Bob"));
+        System.out.println(lib.authorNameSort("Chaos"));
